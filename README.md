@@ -1,8 +1,8 @@
 # Orange Calendar
 
-A warm, cat-themed yearly calendar website made for **Orange**.
+A warm, cat themed yearly calendar website made for **Orange**.
 
-This is a small front-end project built with plain HTML, CSS, and JavaScript. It has a responsive layout, a custom orange cat illustration, a multi-year calendar selector, a today marker, and print-friendly styling.
+This is a small front-end project built with plain HTML, CSS, and JavaScript. It has a responsive layout, a custom orange cat illustration, a multi year calendar selector, a today marker, and print-friendly styling.
 
 ## Preview
 
@@ -11,10 +11,10 @@ Open `index.html` in your browser.
 ## Features
 
 - Multi-year calendar selector
-- Full 12-month yearly view
-- Today marker with a small paw-style detail
+- Full 12 month yearly view
+- Today marker with a small paw style detail
 - Responsive layout for mobile and desktop
-- Print-friendly calendar view
+- Print friendly calendar view
 - Custom cat illustration made with CSS
 - No frameworks and no setup required
 
