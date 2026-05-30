@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Orange Calendar</title>
+  <meta
+    name="description"
+    content="A warm, cat-themed yearly calendar made for Orange."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <nav class="topbar" aria-label="Main navigation">
+        <a class="brand" href="#top" aria-label="Orange Calendar home">
+          <span class="brand-mark">O</span>
+          <span>Orange Calendar</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="#calendar">Calendar</a>
+          <a href="#notes">Notes</a>
+          <a href="#about">About</a>
+        </div>
+      </nav>
+
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="kicker">for the house boss</p>
+          <h1>A yearly calendar for Orange.</h1>
+          <p class="hero-text">
+            A small personal web project with a warm orange theme, soft calendar
+            cards, and a few cat details built into the interface.
+          </p>
+
+          <div class="actions">
+            <label class="year-picker">
+              <span>Year</span>
+              <select id="yearSelect" aria-label="Choose a year"></select>
+            </label>
+
+            <button class="button primary" id="jumpToday" type="button">
+              Find today
+            </button>
+
+            <button class="button ghost" id="printCalendar" type="button">
+              Print
+            </button>
+          </div>
+        </div>
+
+        <aside class="orange-card" aria-label="Illustration of Orange the cat">
+          <div class="sun"></div>
+          <div class="cat">
+            <div class="cat-ear cat-ear-left"></div>
+            <div class="cat-ear cat-ear-right"></div>
+            <div class="cat-head">
+              <span class="stripe stripe-one"></span>
+              <span class="stripe stripe-two"></span>
+              <span class="stripe stripe-three"></span>
+              <span class="eye eye-left"></span>
+              <span class="eye eye-right"></span>
+              <span class="nose"></span>
+              <span class="mouth"></span>
+              <span class="whisker whisker-left-one"></span>
+              <span class="whisker whisker-left-two"></span>
+              <span class="whisker whisker-right-one"></span>
+              <span class="whisker whisker-right-two"></span>
+            </div>
+          </div>
+          <p class="card-caption">Orange is supervising this build.</p>
+        </aside>
+      </section>
+    </header>
+
+    <main>
+      <section class="section-heading" id="calendar">
+        <p class="kicker">all twelve months</p>
+        <h2 id="calendarTitle">Calendar</h2>
+        <p id="calendarSubtitle">
+          Pick a year and the calendar will rebuild instantly.
+        </p>
+      </section>
+
+      <section class="calendar-grid" id="calendarGrid" aria-live="polite"></section>
+
+      <section class="notes-panel" id="notes">
+        <div>
+          <p class="kicker">small details</p>
+          <h2>Orange notes</h2>
+        </div>
+
+        <div class="note-grid">
+          <article class="note-card">
+            <span class="note-icon">🐾</span>
+            <h3>Today marker</h3>
+            <p>Today gets a small paw mark when the selected year matches the current year.</p>
+          </article>
+
+          <article class="note-card">
+            <span class="note-icon">🧶</span>
+            <h3>Print friendly</h3>
+            <p>The layout includes a clean print mode, so the calendar can be saved as PDF.</p>
+          </article>
+
+          <article class="note-card">
+            <span class="note-icon">🍊</span>
+            <h3>Orange theme</h3>
+            <p>The colors, illustration, and spacing are tuned around Orange’s name.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-panel" id="about">
+        <p class="kicker">project info</p>
+        <h2>About this project</h2>
+        <p>
+          This is a simple static website made with HTML, CSS, and JavaScript.
+          It can be uploaded directly to GitHub and published with GitHub Pages.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built for Orange • HTML / CSS / JavaScript</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
