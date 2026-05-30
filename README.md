@@ -1,0 +1,1 @@
+Orange Calendar is a personal web project inspired by my cat, Orange. The project turns a simple yearly calendar into a warm, playful, cat-themed website with soft orange colors, a custom cat illustration, and a clean responsive layout. It was built using HTML, CSS, and JavaScript as a small creative portfolio project.
